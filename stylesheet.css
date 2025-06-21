@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    background-color: beige;
+}
+
+.navbar{
+    width: auto;
+    height:125px;
+    margin: auto;
+    background-color:#603F26;
+}
+.icon{
+    height: 60px;
+}
+.logo{
+    margin-top: 30px;
+    margin-left:25px;
+    float: left;
+    font-family:'Courier New', Courier, monospace;
+    font-size:35px;
+    color:#E4C59E;
+    font-weight:bolder;
+}
+.bouncing-text{
+  display: inline-block;
+  font-size: 30px;
+  animation: bounce 1.5s infinite;
+}
+@keyframes bounce{
+    0%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-25px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+.menu{ 
+    height: 60px;
+    margin-left:450px;
+    margin-top: 3px;
+
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 550px;
+}
+ul li{ 
+    list-style: none;
+    padding-inline: 15px;
+    font-size: 17px;
+}
+ul li a{
+    color: #E4C59E;
+    margin-top: -1px;
+    text-decoration: none;
+}
+ul li a:hover{
+    font-weight: bolder;
+    color:rgb(44, 23, 23);
+}
+
+.section {
+  background-image: url("../images/coffee1.jpg"); 
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  width: 100%;
+}
+.intro{
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bolder;
+}
+.intro p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:20px;
+}
+.sub-sec{
+    padding-top: 50px;
+    text-align: center;
+}
+.sub-sec h3{
+    text-decoration: underline;
+} 
+.sub-sec p{
+    padding-top: 12px;
+    padding-left:10px;
+    text-align: none;
+}
+.order{
+    background-color:#E4C59E;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 30px;
+    padding: 40px 20px;
+}
+.menu1{
+    width: 210px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #724b2d;
+    transition: transform 0.3s ease, box-shadow 0.3s ease; 
+}
+.menu1:hover{
+    transform: translateY(-10px);
+    box-shadow:  0 6px 14px #312115;
+    cursor: pointer;
+}
+
+.review-box{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+}
+.review{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 40px 20px;
+}
+.customer{
+    width: 290px;
+    padding: 15px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px #603F26
+}
+.customer{
+    transition: transfrom 0.3s ease;
+}
+.customer:hover{
+    transform: translateY(-10px);
+    cursor: pointer;
+}
+.star{
+    color:yellow;
+    font-size: 20px;
+}
+.offer{
+    margin-top: 50px;
+    background-image: url("../images/coffee-bean.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+}
+.offer h3{
+    padding-top: 200px;
+    font-size: 35px;
+    text-align: center;
+}
+.offer p{
+    padding-top: 10px;
+    text-align: center;
+}
+.offer input{
+    margin-top:17px;
+    margin-left:580px;
+    padding-left: 10px;
+    width: 350px;
+    height:37px;
+    border-radius:20px;
+    border: none;
+}
+.offer button{
+    width: 100px;
+    height: 37px;
+    border-radius: 19px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.offer button:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+    transform: translateY(-5px);
+}
+.contact{
+    padding-top: 65px;
+    text-align: center;
+    background-color:#AF8260;
+}
+.contact p{
+    padding-top: 12px;
+}
+.contact h4{
+    padding-top: 12px;
+}
+.social{
+    padding-top: 15px;
+}
+.social a{
+    text-decoration: none;
+}
+.social img{
+    margin: 0 8px;
+    padding-top: 12px;
+    transition: transform 0.3s ease;
+}
+.social a:hover img {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.footer{
+    padding-top: 40px;
+    padding-bottom: 15px;
+}
+
+
+
+
+
+
+
+
